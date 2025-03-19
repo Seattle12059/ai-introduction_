@@ -72,173 +72,173 @@
     </div>
 
     <section id="about" class="bg-white border-b py-8">
-  <div class="container max-w-9xl mx-auto m-8">
-    <h2
-      data-aos="fade-up"
-      class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
-    >
-      介绍
-    </h2>
-    <div data-aos="fade-up" class="w-full mb-4">
-      <div
-        class="h-1 mx-auto gradientbutton w-64 opacity-25 my-0 py-0 rounded-t"
-      ></div>
-    </div>
-    <!-- 痛点解决和核心优势部分 -->
-    <div class="flex flex-wrap">
-      <!-- 左侧：痛点解决和核心优势 -->
-      <div class="w-full sm:w-1/2 p-6">
-        <div data-aos="fade-up-right">
-          <h3 class="text-3xl font-semibold text-gray-900 leading-none mb-6">
-            痛点解决
-          </h3>
-          <p
-            class="text-lg text-gray-700 leading-relaxed mb-8 p-4 rounded-xl hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
-          >
-            针对传统会议软件协作低效、记录繁琐、跨语言障碍等问题，提供 AI
-            驱动的智能会议系统，实现高效调度、实时分析与跨语言协作。
-          </p>
-        </div>
-        <div data-aos="fade-up-right">
-          <h3 class="text-3xl font-semibold text-gray-900 leading-none mb-6">
-            核心优势
-          </h3>
-          <p
-            class="text-lg text-gray-700 leading-relaxed mb-8 p-4 rounded-xl hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
-          >
-            集成 AI 智能创建会议、实时语音转写翻译、多维度参与度分析功能，
-            解决会议组织难、信息沉淀弱、国际沟通不畅等痛点。
-          </p>
-        </div>
-        <!-- 新增的一段介绍 -->
-        <div data-aos="fade-up-right">
-          <h3 class="text-3xl font-semibold text-gray-900 leading-none mb-6">
-            适用人群
-          </h3>
-          <p
-            class="text-lg text-gray-700 leading-relaxed mb-8 p-4 rounded-xl hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
-          >
-          本项目面向社会各界人士，涵盖了不同职业、不同年龄段、不同地域的广大群体，旨在满足各类人群在不同场景下的会议需求。
-          </p>
-        </div>
-      </div>
-      <!-- 右侧：图片 -->
-      <div class="w-full sm:w-1/2 p-6 flex items-center justify-center">
-        <img
-          data-aos="fade-up-left"
-          src="../assets/imgs/meeting.png"
-          alt="会议系统示意图"
-          class="rounded-lg shadow-lg w-full h-full object-cover"
-        />
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="customers" class="bg-white border-b py-4">
-  <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-    <h2
-      data-aos="fade-up"
-      class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
-    >
-      功能特点
-    </h2>
-    <div data-aos="fade-up" class="w-full mb-4">
-      <div
-        class="h-1 mx-auto gradientbutton w-64 opacity-25 my-0 py-0 rounded-t"
-      ></div>
-    </div>
-    <div class="w-full flex flex-wrap">
-      <!-- 卡片1 -->
-      <div data-aos="zoom-in-down" class="w-full md:w-1/2 p-4">
-        <div
-          class="bg-white-50 rounded-xl border-2 border-purple-200 hover:border-purple-300 transition-all duration-300 h-full flex flex-col shadow-lg hover:shadow-xl transition-shadow"
+      <div class="container max-w-9xl mx-auto m-8">
+        <h2
+          data-aos="fade-up"
+          class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
         >
-          <div class="p-6 flex-1">
-            <div class="text-purple-600 text-sm mb-2">AI Innovation</div>
-            <h3 class="text-2xl font-bold text-gray-800 mb-4">AI 智能会议</h3>
-            <p class="text-gray-600 leading-relaxed">
-              输入简单指令即可自动生成会议名称、密码等，同时用户可以与AI进行聊天互动，文档解析等
-            </p>
+          介绍
+        </h2>
+        <div data-aos="fade-up" class="w-full mb-4">
+          <div
+            class="h-1 mx-auto gradientbutton w-64 opacity-25 my-0 py-0 rounded-t"
+          ></div>
+        </div>
+        <!-- 痛点解决和核心优势部分 -->
+        <div class="flex flex-wrap">
+          <!-- 左侧：痛点解决和核心优势 -->
+          <div class="w-full sm:w-1/2 p-6">
+            <div data-aos="fade-up-right">
+              <h3 class="text-3xl font-semibold text-gray-900 leading-none mb-6">
+                痛点解决
+              </h3>
+              <p
+                class="text-lg text-gray-700 leading-relaxed mb-8 p-4 rounded-xl hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+              >
+                针对传统会议软件协作低效、记录繁琐、跨语言障碍等问题，提供 AI
+                驱动的智能会议系统，实现高效调度、实时分析与跨语言协作。
+              </p>
+            </div>
+            <div data-aos="fade-up-right">
+              <h3 class="text-3xl font-semibold text-gray-900 leading-none mb-6">
+                核心优势
+              </h3>
+              <p
+                class="text-lg text-gray-700 leading-relaxed mb-8 p-4 rounded-xl hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+              >
+                集成 AI 智能创建会议、实时语音转写翻译、多维度参与度分析功能，
+                解决会议组织难、信息沉淀弱、国际沟通不畅等痛点。
+              </p>
+            </div>
+            <!-- 新增的一段介绍 -->
+            <div data-aos="fade-up-right">
+              <h3 class="text-3xl font-semibold text-gray-900 leading-none mb-6">
+                适用人群
+              </h3>
+              <p
+                class="text-lg text-gray-700 leading-relaxed mb-8 p-4 rounded-xl hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+              >
+              本项目面向社会各界人士，涵盖了不同职业、不同年龄段、不同地域的广大群体，旨在满足各类人群在不同场景下的会议需求。
+              </p>
+            </div>
           </div>
-          <div class="px-4 pb-4 min-h-[300px]">
+          <!-- 右侧：图片 -->
+          <div class="w-full sm:w-1/2 p-6 flex items-center justify-center">
             <img
-              src="../assets/imgs/AI.gif"
-              alt="AI Innovation"
-              class="w-full h-96 md:h-120 object-cover rounded-xl hover:scale-105 transition-transform duration-300 border-2 border-purple-100/50 hover:border-purple-200"
+              data-aos="fade-up-left"
+              src="../assets/imgs/meeting.png"
+              alt="会议系统示意图"
+              class="rounded-lg shadow-lg w-full h-full object-cover"
             />
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- 卡片2 -->
-      <div data-aos="zoom-in-down" class="w-full md:w-1/2 p-4">
-        <div
-          class="bg-white-50 rounded-xl border-2 border-blue-200 hover:border-blue-300 transition-all duration-300 h-full flex flex-col shadow-lg hover:shadow-xl transition-shadow"
+    <section id="customers" class="bg-white border-b py-4">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+        <h2
+          data-aos="fade-up"
+          class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
         >
-          <div class="p-6 flex-1">
-            <div class="text-blue-600 text-sm mb-2">Language Processing</div>
-            <h3 class="text-2xl font-bold text-gray-800 mb-4">实时语音转录与翻译</h3>
-            <p class="text-gray-600 leading-relaxed">
-              支持多语言实时转写并生成字幕，打破语言 barriers，提升国际会议沟通效率
-            </p>
+          功能特点
+        </h2>
+        <div data-aos="fade-up" class="w-full mb-4">
+          <div
+            class="h-1 mx-auto gradientbutton w-64 opacity-25 my-0 py-0 rounded-t"
+          ></div>
+        </div>
+        <div class="w-full flex flex-wrap">
+          <!-- 卡片1 -->
+          <div data-aos="zoom-in-down" class="w-full md:w-1/2 p-4">
+            <div
+              class="bg-white-50 rounded-xl border-2 border-purple-200 hover:border-purple-300 transition-all duration-300 h-full flex flex-col shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <div class="p-6 flex-1">
+                <div class="text-purple-600 text-sm mb-2">AI Innovation</div>
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">AI 智能会议</h3>
+                <p class="text-gray-600 leading-relaxed">
+                  输入简单指令即可自动生成会议名称、密码等，同时用户可以与AI进行聊天互动，文档解析等
+                </p>
+              </div>
+              <div class="px-4 pb-4 min-h-[300px]">
+                <img
+                  src="../assets/imgs/AI.gif"
+                  alt="AI Innovation"
+                  class="w-full h-96 md:h-120 object-cover rounded-xl hover:scale-105 transition-transform duration-300 border-2 border-purple-100/50 hover:border-purple-200"
+                />
+              </div>
+            </div>
           </div>
-          <div class="px-4 pb-4 min-h-[300px]">
-            <img
-              src="../assets/imgs/转录和翻译.gif"
-              alt="Language Processing"
-              class="w-full h-96 md:h-120 object-cover rounded-xl hover:scale-105 transition-transform duration-300 border-2 border-blue-100/50 hover:border-purple-200"
-            />
+
+          <!-- 卡片2 -->
+          <div data-aos="zoom-in-down" class="w-full md:w-1/2 p-4">
+            <div
+              class="bg-white-50 rounded-xl border-2 border-blue-200 hover:border-blue-300 transition-all duration-300 h-full flex flex-col shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <div class="p-6 flex-1">
+                <div class="text-blue-600 text-sm mb-2">Language Processing</div>
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">实时语音转录与翻译</h3>
+                <p class="text-gray-600 leading-relaxed">
+                  支持多语言实时转写并生成字幕，打破语言 barriers，提升国际会议沟通效率
+                </p>
+              </div>
+              <div class="px-4 pb-4 min-h-[300px]">
+                <img
+                  src="../assets/imgs/转录和翻译.gif"
+                  alt="Language Processing"
+                  class="w-full h-96 md:h-120 object-cover rounded-xl hover:scale-105 transition-transform duration-300 border-2 border-blue-100/50 hover:border-purple-200"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- 卡片3 -->
+          <div data-aos="zoom-in-down" class="w-full md:w-1/2 p-4">
+            <div
+              class="bg-white-50 rounded-xl border-2 border-yellow-200 hover:border-yellow-300 transition-all duration-300 h-full flex flex-col shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <div class="p-6 flex-1">
+                <div class="text-yellow-600 text-sm mb-2">AI Summarization</div>
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">智能会议笔记生成</h3>
+                <p class="text-gray-600 leading-relaxed">
+                  根据会议内容自动提取关键信息并生成结构化总结，替代人工整理，提升会议信息利用率
+                </p>
+              </div>
+              <div class="px-4 pb-4 min-h-[300px]">
+                <img
+                  src="../assets/imgs/picture6.gif"
+                  alt="AI interface demo"
+                  class="w-full h-96 md:h-120 object-cover rounded-xl hover:scale-105 transition-transform duration-300 border-2 border-yellow-100/50 hover:border-purple-200"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- 卡片4 -->
+          <div data-aos="zoom-in-down" class="w-full md:w-1/2 p-4">
+            <div
+              class="bg-white-50 rounded-xl border-2 border-pink-200 hover:border-pink-300 transition-all duration-300 h-full flex flex-col shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <div class="p-6 flex-1">
+                <div class="text-pink-600 text-sm mb-2">Engagement Analytics</div>
+                <h3 class="text-2xl font-bold mb-4">多维度参与度分析</h3>
+                <p class="opacity-90 leading-relaxed">
+                  基于发言时长、互动频率等数据量化参会者贡献度，解决传统评估主观、缺乏数据支撑的痛点
+                </p>
+              </div>
+              <div class="px-4 pb-4 min-h-[300px]">
+                <img
+                  src="../assets/imgs/参数数据.gif"
+                  alt="AI interface demo"
+                  class="w-full h-96 md:h-120 object-cover rounded-xl hover:scale-105 transition-transform duration-300 border-2 border-pink-100/50 hover:border-purple-200"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <!-- 卡片3 -->
-      <div data-aos="zoom-in-down" class="w-full md:w-1/2 p-4">
-        <div
-          class="bg-white-50 rounded-xl border-2 border-yellow-200 hover:border-yellow-300 transition-all duration-300 h-full flex flex-col shadow-lg hover:shadow-xl transition-shadow"
-        >
-          <div class="p-6 flex-1">
-            <div class="text-yellow-600 text-sm mb-2">AI Summarization</div>
-            <h3 class="text-2xl font-bold text-gray-800 mb-4">智能会议笔记生成</h3>
-            <p class="text-gray-600 leading-relaxed">
-              根据会议内容自动提取关键信息并生成结构化总结，替代人工整理，提升会议信息利用率
-            </p>
-          </div>
-          <div class="px-4 pb-4 min-h-[300px]">
-            <img
-              src="../assets/imgs/picture6.gif"
-              alt="AI interface demo"
-              class="w-full h-96 md:h-120 object-cover rounded-xl hover:scale-105 transition-transform duration-300 border-2 border-yellow-100/50 hover:border-purple-200"
-            />
-          </div>
-        </div>
-      </div>
-
-      <!-- 卡片4 -->
-      <div data-aos="zoom-in-down" class="w-full md:w-1/2 p-4">
-        <div
-          class="bg-white-50 rounded-xl border-2 border-pink-200 hover:border-pink-300 transition-all duration-300 h-full flex flex-col shadow-lg hover:shadow-xl transition-shadow"
-        >
-          <div class="p-6 flex-1">
-            <div class="text-pink-600 text-sm mb-2">Engagement Analytics</div>
-            <h3 class="text-2xl font-bold mb-4">多维度参与度分析</h3>
-            <p class="opacity-90 leading-relaxed">
-              基于发言时长、互动频率等数据量化参会者贡献度，解决传统评估主观、缺乏数据支撑的痛点
-            </p>
-          </div>
-          <div class="px-4 pb-4 min-h-[300px]">
-            <img
-              src="../assets/imgs/参数数据.gif"
-              alt="AI interface demo"
-              class="w-full h-96 md:h-120 object-cover rounded-xl hover:scale-105 transition-transform duration-300 border-2 border-pink-100/50 hover:border-purple-200"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <section id="showcase" class="bg-white py-12">
 
@@ -298,16 +298,29 @@
                 :key="card.title + index"
                 @mouseenter="activeIndex = index"
                 @mouseleave="activeIndex = null"
-                :class="[ 'relative transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]', 'w-5/6 sm:w-1/4 mx-auto', index === 0 ? 'sm:translate-y-0' : index === 1 ? 'sm:-translate-y-4' : index === 2 ? 'sm:-translate-y-8' : 'sm:-translate-y-12', { 'scale-110 sm:scale-125 z-20 shadow-2xl': activeIndex === index, 'z-10': activeIndex !== null && activeIndex !== index, 'z-0': activeIndex === null } ]"
+      :class="[
+                  'relative transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]',
+                  'w-5/6 sm:w-1/4 mx-auto',
+                  index === 0
+                    ? 'sm:translate-y-0'
+                    : index === 1
+                    ? 'sm:-translate-y-4'
+                    : index === 2
+                    ? 'sm:-translate-y-8'
+                    : 'sm:-translate-y-12',
+                  {
+                    'scale-110 sm:scale-125 z-20 shadow-2xl': activeIndex === index,
+                    'z-10': activeIndex !== null && activeIndex !== index,
+                    'z-0': activeIndex === null,
+                  },
+                ]"
                 data-aos="zoom-out-down"
-
               >
                 <div class="bg-white rounded-lg shadow-xl overflow-hidden h-[500px]">
                   <!-- 文字内容 -->
                   <div class="p-6 text-center">
                     <h3 class="text-xl font-semibold mb-3">{{ card.title }}</h3>
                     <div class="text-gray-600 text-sm leading-relaxed inline-block">
-
                       <template v-for="(line, lineIndex) in card.description" :key="lineIndex">
                         <span>
                           {{ line }}
@@ -406,9 +419,9 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import { defineComponent } from 'vue';
 
-export default Vue.extend({
+export default defineComponent({
   name: "IndexPage",
   data() {
     return {
