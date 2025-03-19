@@ -70,7 +70,7 @@
         </g>
       </svg>
     </div>
-    
+
     <section id="about" class="bg-white border-b py-8">
   <div class="container max-w-9xl mx-auto m-8">
     <h2
@@ -295,22 +295,24 @@
             >
               <div
                 v-for="(card, index) in cards"
-                :key="index"
+                :key="card.title + index"
                 @mouseenter="activeIndex = index"
                 @mouseleave="activeIndex = null"
-                class="[ 'relative transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]', 'w-5/6 sm:w-1/4 mx-auto', index === 0 ? 'sm:translate-y-0' : index === 1 ? 'sm:-translate-y-4' : index === 2 ? 'sm:-translate-y-8' : 'sm:-translate-y-12', { 'scale-110 sm:scale-125 z-20 shadow-2xl': activeIndex === index, 'z-10': activeIndex !== null && activeIndex !== index, 'z-0': activeIndex === null } ]"
+                :class="[ 'relative transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]', 'w-5/6 sm:w-1/4 mx-auto', index === 0 ? 'sm:translate-y-0' : index === 1 ? 'sm:-translate-y-4' : index === 2 ? 'sm:-translate-y-8' : 'sm:-translate-y-12', { 'scale-110 sm:scale-125 z-20 shadow-2xl': activeIndex === index, 'z-10': activeIndex !== null && activeIndex !== index, 'z-0': activeIndex === null } ]"
                 data-aos="zoom-out-down"
+
               >
                 <div class="bg-white rounded-lg shadow-xl overflow-hidden h-[500px]">
                   <!-- 文字内容 -->
                   <div class="p-6 text-center">
                     <h3 class="text-xl font-semibold mb-3">{{ card.title }}</h3>
                     <div class="text-gray-600 text-sm leading-relaxed inline-block">
-                      <template v-for="(line, index) in card.description">
-                        <span :key="index">
+
+                      <template v-for="(line, lineIndex) in card.description" :key="lineIndex">
+                        <span>
                           {{ line }}
                           <br
-                            v-if="index < card.description.length - 1"
+                            v-if="lineIndex < card.description.length - 1"
                             class="hidden sm:inline"
                           />
                           <span v-else class="sm:hidden"> </span>
@@ -322,7 +324,7 @@
 
                   <!-- 图片区域 -->
                   <div
-                    class="h-[400px] w-full overflow-hidden flex justify-center items-center" 
+                    class="h-[400px] w-full overflow-hidden flex justify-center items-center"
                   >
                     <img
                       :src="card.image"
