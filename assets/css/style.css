@@ -1,0 +1,44 @@
+/* @import url(./tailwind.css);@import url(./fonts.css);*{transition:all .3s linear;font-family:'SourceSansPro',sans-serif}.gradient{background:linear-gradient(90deg,#2d61ee 0%,#4eb6e6 100%)}@media (max-width:768px){[data-aos]{opacity:1 !important;transform:none !important;visibility:visible !important}}html{scroll-behavior:smooth}#customers,#pricing{scroll-margin-top:100px}img{user-select:none;user-drag:none;pointer-events:none} */
+/* 导入外部 CSS 文件 */
+@import url(./tailwind.css);
+@import url(./fonts.css);
+
+/* 全局样式 */
+* {
+    transition: all .3s linear;
+    font-family: 'SourceSansPro', sans-serif;
+}
+
+/* 渐变背景样式 */
+.gradient {
+    background: linear-gradient(90deg, #f4f9ff 0%, #b8d6fa 100%);
+}
+.gradientbutton {
+    background: linear-gradient(90deg, #8fc1ff 0%, #3145ff 100%);
+}
+/* 媒体查询，当屏幕宽度最大为 768px 时的样式 */
+@media (max-width: 768px) {
+    [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        visibility: visible !important;
+    }
+}
+
+/* HTML 元素样式 */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 特定 ID 元素的滚动边距 */
+#customers,
+#pricing {
+    scroll-margin-top: 100px;
+}
+
+/* 图片元素样式 */
+img {
+    user-select: none;
+    user-drag: none;
+    pointer-events: none;
+}
